@@ -5,7 +5,7 @@ export const getUsers = async () => {
         const response = await axios.get("http://localhost:9000/users");
         //Getting users from the Backend we developed
         console.log(response); //for testing
-        return await response.data; //return as JSON
+        return await response.data; 
         
     } catch (error) {
         return error;
