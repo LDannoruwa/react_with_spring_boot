@@ -35,7 +35,7 @@ const Home = () => {
     }, []);
 
     const handleOrder = ((item) => {
-        const updatedOrder = [...order, item]
+        const updatedOrder = [...order, item] //spread operator javascript (...)
 
         const updatedTotal = total + item.price;
 
