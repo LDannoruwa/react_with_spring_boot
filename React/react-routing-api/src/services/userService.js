@@ -3,8 +3,8 @@ import axios from 'axios';
 export const getUsers = async () => {
     try {
         const response = await axios.get("http://localhost:9000/users");
-        ////Getting users from the Backend we developed
-        console.log(response);
+        //Getting users from the Backend we developed
+        console.log(response); //for testing
         return await response.data; //return as JSON
         
     } catch (error) {
