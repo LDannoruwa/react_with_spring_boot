@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Form from 'react-bootstrap/Form';
 
-
+//we should set state for every form field to track the input of user 
 const User = () => {
     const [users, setUsers] = useState(null);
     const [userDetail, setUserDetail] = useState(null);
@@ -86,6 +86,7 @@ const User = () => {
                             </div>
                         }
                     </div>
+
 
                     <Form onSubmit={handleSubmit}>
                         <Form.Group className="mb-3">
