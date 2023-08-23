@@ -45,6 +45,7 @@ const User = () => {
 
         const res = await createUser(data);
 
+        //clear form
         if(res) {
             setUsername("");
             setPassword("");
